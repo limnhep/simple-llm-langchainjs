@@ -33,6 +33,10 @@ const promptTemplate = ChatPromptTemplate.fromMessages([
 ]);
 
 // Create a chain that pipes the prompt template through the model and parser
+// The .pipe() method is used to create a chain of methods. It takes the output of the previous method as the input to the next method.
+// This is a simple chain that takes the input, passes it to the model, and then passes the output to the parser.
+// This is part of LangChain's Expression Language (LCEL).
+// Chain of thought: prompt template -> model -> parser
 const llmChain = promptTemplate.pipe(model).pipe(parser);
 
 // Define an asynchronous function to run the model
