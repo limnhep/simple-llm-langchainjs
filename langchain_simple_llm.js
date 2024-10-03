@@ -1,5 +1,4 @@
 import { ChatOpenAI } from "@langchain/openai"; // Import the ChatOpenAI class from the LangChain OpenAI module
-import { HumanMessage, SystemMessage } from "@langchain/core/messages"; // Import message classes for human and system messages
 import { StringOutputParser } from "@langchain/core/output_parsers"; // Import the output parser for string formatting
 import { ChatPromptTemplate } from "@langchain/core/prompts"; // Import the prompt template class for structuring inputs
 import dotenv from "dotenv"; // Import dotenv to manage environment variables
