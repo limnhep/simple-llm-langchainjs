@@ -1,6 +1,6 @@
 # LangChain Simple LLM
 
-This lesson demonstrates how to use the LangChain library to create a simple language model application that translates English to French. Inspired by the [LangChain documentation](https://js.langchain.com/v0.1/docs/getting-started/introduction/). Detailed explanation of the code is in the comments. Good for beginners to understand the basics of LangChain and how to create a simple LLM application.
+This lesson demonstrates how to use the LangChain library to create a simple language model application that translates English to French. Inspired by the [LangChain documentation](https://js.langchain.com/). Detailed explanation of the code is in the comments. Good for beginners to understand the basics of LangChain and how to create a simple LLM application.
 
 ## Table of Contents
 
