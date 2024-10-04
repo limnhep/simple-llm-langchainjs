@@ -11,7 +11,7 @@ dotenv.config(); // Load environment variables from the .env file
 // 3. LangChain library installed
 // 4. OpenAI API key set in the environment variables
 
-// Additionally, when you use the .invoke() method, the invoke method takes in either a string or an object because that's how LLMs work.
+// Additionally, when you use the .invoke() method, the invoke method takes in either a string or an object because that's how LLMs ingest incoming data.
 
 // Check if the OpenAI API key is set in the environment variables
 if (!process.env.OPENAI_API_KEY) {
